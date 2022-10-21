@@ -3,14 +3,14 @@
 # Пример:
 # - [1.1, 1.2, 3.1, 5, 10.01] => 0.19
 
-from random import randint
+from random import uniform
 
 N = int(input('Enter the number of quantity elements: '))
 
 list = []
 
 for i in range(N):
-    list.append(randint(0, 20))
+    list.append(round(uniform(0, 20),1))
 
 print(list)
 
