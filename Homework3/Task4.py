@@ -14,6 +14,10 @@ while N > 0:
 
 print(list)
 
+rev_list = []
+
+for i in range(len(list)):
+    rev_list.append(list[len(list) - i - 1])
 
 
-print(list)
+print(rev_list)
